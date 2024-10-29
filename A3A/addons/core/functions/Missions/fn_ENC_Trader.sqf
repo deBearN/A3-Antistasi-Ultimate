@@ -26,7 +26,7 @@ _radGrad = [_traderPosition, 0] call BIS_fnc_terrainGradAngle;
 private _outOfBounds = _traderPosition findIf { (_x < 0) || {_x > worldSize}} != -1;
 
 private _enemyBases = (airportsX + milbases + outposts + seaports + factories + resourcesX) select {sidesX getVariable [_x, sideUnknown] != teamPlayer};
-private _isTooCloseToOutposts = _enemyBases findIf { _traderPosition distance2d (getMarkerPos _x) < 300 || _traderPosition inArea _x } != -1;
+private _isTooCloseToOutposts = _enemyBases findIf { _traderPosition distance2d (getMarkerPos _x) < 3500 || _traderPosition inArea _x } != -1;
 
 //mitigation of negative terrain gradient
 if(!(_radGrad > -0.25 && _radGrad < 0.25) || {isOnRoad _traderPosition || {surfaceIsWater _traderPosition || {_outOfBounds || {_isTooCloseToOutposts}}}}) then {

@@ -292,9 +292,9 @@ class Params
     class lootCrateDistance
     {
         title = $STR_params_lootCrateDistance;
-        values[] = {10, 25, 50, 75, 100};
-        texts[] = {"10", "25", "50", "75", "100"};
-        default = 50;
+        values[] = {10, 25, 50, 75, 100,1500};
+        texts[] = {"10", "25", "50", "75", "100","1500"};
+        default = 1500;
     };
     class lootCratePrice
     {
@@ -355,9 +355,9 @@ class Params
     class deathPenalty
     {
         title = $STR_params_deathPenalty;
-        values[] = {15, 30, 50, 75, 100};
-        texts[] = {"15%", "30%", "50%", "75%", "100%"};
-        default = 30;
+        values[] = {1,15, 30, 50, 75, 100};
+        texts[] = {"1%","15%", "30%", "50%", "75%", "100%"};
+        default = 1;
     };
     class saveZeusBuildings
     {
@@ -371,13 +371,13 @@ class Params
         title = $STR_params_maxConstructions;
         values[] = {0,50,100,250,300};
         texts[] = {"0","50","100","250","300"};
-        default = 100;
+        default = 300;
     };
     class maxSupportPoints
     {
         title = $STR_params_maxSupportPoints;
-        values[] = {1,2,3,4,5,6};
-        texts[] = {"1","2","3","4","5","6"};
+        values[] = {1,2,3,4,5,6,50};
+        texts[] = {"1","2","3","4","5","6","50"};
         default = 3;
     };
     class unconsciousPossessAi
@@ -538,9 +538,9 @@ class Params
     {
         title = $STR_params_rebelGarrisonLimit;
         tooltip = $STR_params_rebelGarrisonLimit_desc;
-        values[] = {-1, 16, 24, 32};
-        texts[] = {"No limit", "16", "24", "32"};
-        default = 24;
+        values[] = {-1, 16, 24, 32, 64};
+        texts[] = {"No limit", "16", "24", "32", "64"};
+        default = 64;
     };
     class SpacerEquipment
     {
