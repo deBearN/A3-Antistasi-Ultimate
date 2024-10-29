@@ -23,7 +23,7 @@
 
 ["vehiclesCivCar", ["CUP_C_LR_Transport_CTK"]] call _fnc_saveToTemplate;
 ["vehiclesCivTruck", ["C_Van_01_transport_F"]] call _fnc_saveToTemplate;
-["vehiclesCivHeli", ["CUP_C_412"]] call _fnc_saveToTemplate;
+["vehiclesCivHeli", ["B_Heli_Light_01_dynamicLoadout_F"]] call _fnc_saveToTemplate;
 ["vehiclesCivBoat", ["CUP_C_Fishing_Boat_Chernarus"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["CUP_B_L111A1_BAF_DDPM", "CUP_B_L111A1_MiniTripod_BAF_MPT", "CUP_B_M134_A_GB"]] call _fnc_saveToTemplate;
