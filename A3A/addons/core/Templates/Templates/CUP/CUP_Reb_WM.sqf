@@ -90,8 +90,21 @@ private _rebUniforms = [
     "CUP_U_I_GUE_Anorak_03",
     "CUP_U_I_GUE_Anorak_02",
     "CFP_U_FieldUniform_tigerstripe",
-    "CUP_U_B_BDUv2_roll2_DPM_OD",
-    "CFP_PASGTHelmet_M811"
+    "CUP_U_B_BDUv2_roll2_DPM_OD",    
+    "CFP_GUER_M81",
+    "CFP_GUER_M81Tee",
+    "CUP_I_B_PARA_Unit_6",
+    "CUP_I_B_PARA_Unit_9",
+    "CUP_I_B_PARA_Unit_4",
+    "CFP_RAID_M811",
+    "CFP_RAID_M812",
+    "CFP_RAID_M81_DCU_1",
+    "CFP_RAID_M81_DCU_4",
+    "CUP_U_B_USMC_MCCUU_M81_gloves",
+    "CUP_U_B_USMC_MCCUU_M81_roll_2_gloves",
+    "CUP_U_B_USMC_MCCUU_M81_roll_2_pads_gloves",
+    "CUP_U_B_USMC_MCCUU_M81_pads_gloves",
+    "CFP_U_WorkUniform_M81"
 ]; //Uniforms given to Player Rebels
 
 private _rebUniformsAI = [
@@ -102,7 +115,22 @@ private _rebUniformsAI = [
     "CUP_U_I_GUE_Anorak_03",
     "CUP_U_I_GUE_Anorak_02",
     "CFP_U_FieldUniform_tigerstripe",
-    "CUP_U_B_BDUv2_roll2_DPM_OD"
+    "CUP_U_B_BDUv2_roll2_DPM_OD",
+    "CFP_GUER_M81Tee",
+    "CUP_U_B_BDUv2_roll2_DPM_OD",    
+    "CFP_GUER_M81",
+    "CUP_I_B_PARA_Unit_6",
+    "CUP_I_B_PARA_Unit_9",
+    "CUP_I_B_PARA_Unit_4",
+    "CFP_RAID_M811",
+    "CFP_RAID_M812",
+    "CFP_RAID_M81_DCU_1",
+    "CFP_RAID_M81_DCU_4",
+    "CUP_U_B_USMC_MCCUU_M81_gloves",
+    "CUP_U_B_USMC_MCCUU_M81_roll_2_gloves",
+    "CUP_U_B_USMC_MCCUU_M81_roll_2_pads_gloves",
+    "CUP_U_B_USMC_MCCUU_M81_pads_gloves",
+    "CFP_U_WorkUniform_M81"
 ]; //Uniforms given to AI Rebels
 
 ["uniforms", _rebUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
@@ -116,6 +144,7 @@ private _rebUniformsAI = [
     "H_MilCap_gry",
     "H_Shemag_olive",
     "H_ShemagOpen_tan",
+    "CFP_PASGTHelmet_M811",
     "CUP_H_FR_Headband_Headset"
 ]] call _fnc_saveToTemplate; //Headgear used by Rebell Ai until you have Armored Headgear.
 
