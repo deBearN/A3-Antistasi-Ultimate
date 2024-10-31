@@ -12,8 +12,8 @@
 
 ["vehiclesBasic", ["CUP_B_Tigr_233011_AFU"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["CUP_B_Tigr_233011_AFU"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WDL_01", "CUP_B_M113A3_GER"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["CUP_B_Tigr_233011_AFU"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["CUP_O_BTR80A_CHDKZ", "CFP_B_USARMY_2003_M2A3_ERA_Bradley_IFV_WDL_01"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["I_G_Van_01_transport_F"]] call _fnc_saveToTemplate;
 ["vehiclesAT", ["CUP_B_M2A3Bradley_AFU"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["B_T_APC_Tracked_01_AA_F"]] call _fnc_saveToTemplate;
 ["vehiclesBoat", ["CUP_B_RHIB2Turret_HIL"]] call _fnc_saveToTemplate;
@@ -64,7 +64,9 @@ private _initialRebelEquipment = [
     "CUP_V_PlateCarrierSpec_MM14", "U_O_R_Gorka_01_F", "U_O_R_Gorka_01_brown_F", "U_O_R_Gorka_01_black_F", "CUP_optic_Elcan_SpecterDR_RMR_black",
     "CUP_30Rnd_556x45_Stanag", "CUP_launch_M136", "CUP_launch_MAAWS", "MRAWS_HEAT_F", "launch_MRAWS_green_F", "CUP_launch_FIM92Stinger",
     "CUP_NVG_GPNVG_Hide", "ACE_Vector", "Laserdesignator_01_khk_F", "LaserdesignatorGPS_01", "Rangefinder", "ItemAndroid", "I_UavTerminal",
-    "I_UAV_01_backpack_F", "Item_Mavic3T", "I_Crocus_AP_Bag", "I_Crocus_AT_Bag", "CUP_B_RUS_Patrol_bag_Summer"
+    "I_UAV_01_backpack_F", "Item_Mavic3T", "I_Crocus_AP_Bag", "I_Crocus_AT_Bag", "CUP_B_RUS_Patrol_bag_Summer",
+    "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "ACE_7Rnd_408_305gr_Mag", "CUP_arifle_M4A1_BUIS_GL", "CUP_1Rnd_HEDP_M203", "CUP_smg_EVO", "CUP_30Rnd_9x19_EVO",
+    "CUP_smg_BallisticShield_MP7"
 ];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr", "tf_anprc154"]};
