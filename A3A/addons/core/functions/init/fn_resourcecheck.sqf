@@ -150,10 +150,10 @@ while {true} do {
 
 	private _rebAirportsQuantity = {sidesX getVariable [_x,sideUnknown] == teamPlayer} count airportsX;
 	bombRuns = bombRuns + 0.25 * _rebAirportsQuantity;
-	publicVariable "bombRuns";
+	publicVariable "bombRuns"; //Air strike points
 
-	if (bombRuns > (_rebAirportsQuantity * 2)) then {
-		bombRuns = _rebAirportsQuantity * 2;
+	if (bombRuns > (_rebAirportsQuantity * 20)) then {
+		bombRuns = _rebAirportsQuantity * 20;
 	};
 
 	if(tierWar > 2) then {
