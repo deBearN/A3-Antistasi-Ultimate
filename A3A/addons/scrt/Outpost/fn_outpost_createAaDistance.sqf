@@ -19,7 +19,7 @@ if (isNil "_garrison") then {
 
 {
     private _relativePosition = [_positionX, 4, _x] call BIS_Fnc_relPos;
-    private _sandbag = createVehicle ["Land_BagFence_Round_F", _relativePosition, [], 0, "CAN_COLLIDE"];
+    private _sandbag = createVehicle ["ClutterCutter", _relativePosition, [], 0, "CAN_COLLIDE"];
     _sandbag setDir ([_sandbag, _positionX] call BIS_fnc_dirTo);
     _sandbag setVectorUp surfaceNormal position _sandbag;
     _props pushBack _sandbag;

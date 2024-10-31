@@ -19,13 +19,13 @@ if (isNil "_garrison") then {//this is for backward compatibility, remove after 
 
 {
     private _relativePosition = [_positionX, 4, _x] call BIS_Fnc_relPos;
-    private _sandbag = createVehicle ["Land_BagFence_Round_F", _relativePosition, [], 0, "CAN_COLLIDE"];
+    private _sandbag = createVehicle ["ClutterCutter", _relativePosition, [], 0, "CAN_COLLIDE"];
     _sandbag setDir ([_sandbag, _positionX] call BIS_fnc_dirTo);
     _sandbag setVectorUp surfaceNormal position _sandbag;
     _props pushBack _sandbag;
 } forEach [0, 90, 180, 270];
 
-private _camonet = createVehicle ["CamoNet_BLUFOR_open_F", _positionX, [], 0, "CAN_COLLIDE"];
+private _camonet = createVehicle ["ClutterCutter", _positionX, [], 0, "CAN_COLLIDE"];
 _props pushBack _camonet;
 
 private _veh = objNull;
